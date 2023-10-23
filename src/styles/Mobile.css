@@ -1,0 +1,133 @@
+@media(max-width:720px){
+    .links-pc{
+        display: none;
+    }
+}
+
+.nav{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #9b141a;
+    z-index: 1000;
+}
+
+.nav .logo{
+    margin-left: 15px;
+}
+
+.nav .logo h1{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.nav .links-mobile{
+    position: absolute;
+    display: flex;
+    top: 80px;
+    right: 0px;
+    flex-direction: column;
+    height: 260px;
+    width: 0%;
+    background-color: #9b141a;
+    transition: all 0.6s;
+}
+
+.nav .links-mobile .close-menu{
+    height: 25px;
+    width: auto;
+    margin: 10px 0px 0px 20px;
+    fill: #fff;
+}
+
+.nav .links-mobile li{
+    margin: 20px 0px;
+    text-align: center;
+    color: #fff;
+
+}
+
+a:visited{
+    color: #fff;
+}
+
+.nav .icon-open-menu-container{
+    margin-right: 15px;
+}
+
+.nav .icon-open-menu-container .open-menu{
+    height: 40px;
+    width: auto;
+    fill: #fff;
+}
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    background-image: 
+    linear-gradient(
+        0deg,
+        rgba(0,0,0,1),
+        rgba(0,0,0,0.5)
+    ),
+    url('../images/audi_interior.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-us p{
+    margin: 10px;
+    color: #fff;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.service .tittle-service{
+    padding: 10px;
+}
+
+.service .service-description{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.service .service-description p{
+    background-color: #9b141a;
+    color: #fff;
+    padding: 10px;
+    border-radius: 1rem 1rem 0px 0px;
+}
+
+.service .service-description ul{
+    background-color: #bdbdbd;
+    border-radius: 0px 0px 1rem 1rem;
+    padding: 10px;
+}
+
+.location{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact{
+    height: 100vh;
+}
