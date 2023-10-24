@@ -30,7 +30,7 @@
     top: 80px;
     right: 0px;
     flex-direction: column;
-    height: 260px;
+    height: 300px;
     width: 0%;
     background-color: #9b141a;
     transition: all 0.6s;
@@ -69,7 +69,7 @@ a:visited{
     flex-direction: column;
     height: 100vh;
     justify-content: center;
-    padding: 20px;
+    padding: 20px 40px;
     text-align: center;
     background-image: 
     linear-gradient(
@@ -92,7 +92,7 @@ a:visited{
     flex-direction: column;
     height: 100vh;
     justify-content: center;
-    padding: 20px;
+    padding: 40px 40px 20px 40px;
     text-align: center;
 }
 
@@ -119,13 +119,51 @@ a:visited{
     padding: 10px;
 }
 
+.works{
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 40px;
+}
+
+.works p{
+    padding: 20px;
+}
+
+.works .images-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    background-color: #9b141a;
+    border-radius: 1rem;
+}
+
+.works .image1{
+    width: auto;
+    height: 250px;
+}
+
+.works .image2{
+    width: auto;
+    height: 250px;
+}
+
+.works .image3{
+    width: auto;
+    height: 221px;
+}
+
 .location{
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 20px;
+    padding: 40px 40px 20px 40px;
 }
 
 .location p{
@@ -147,12 +185,12 @@ a:visited{
 
 .location .direction .location-icon{
     width: auto;
-    height: 40px;
+    height: 30px;
     fill: #9b141a;
 }
 
 .location .direction p{
-    margin: 7px;
+    margin: 4px 10px;
 }
 
 .contact{
@@ -167,7 +205,7 @@ a:visited{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 10px;
+    padding: 10px 10px 20px 10px;
     align-items: center;
 }
 

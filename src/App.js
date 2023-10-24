@@ -16,6 +16,7 @@ function App() {
             <ul>
               <li><a href='#about-us' onClick={closeNav}>Sobre Nosotros</a></li>
               <li><a href='#service' onClick={closeNav}>Servicios</a></li>
+              <li><a href='#works' onClick={closeNav}>Nuestros Trabajos</a></li>
               <li><a href='#location' onClick={closeNav}>Ubicación</a></li>
               <li><a href='#contact' onClick={closeNav}>Contactos</a></li>
             </ul>
@@ -25,6 +26,7 @@ function App() {
             <ul>
               <li><a href='#about-us' onClick={closeNav}>Sobre Nosotros</a></li>
               <li><a href='#service' onClick={closeNav}>Servicios</a></li>
+              <li><a href='#works' onClick={closeNav}>Nuestros Trabajos</a></li>
               <li><a href='#location' onClick={closeNav}>Ubicación</a></li>
               <li><a href='#contact' onClick={closeNav}>Contactos</a></li>
             </ul>
@@ -61,6 +63,25 @@ function App() {
               <li>- Encerado</li>
             </ul>
           </div>
+        </div>
+      </section>
+      <section>
+        <div className='works' id='works'>
+          <p><strong>Nuestros Trabajos</strong></p>
+          <div className='images-container'>
+              <img
+              src={require('./images/opticas_comparacion.jpg')}
+              className='image1'
+              alt='Pulido de Opticas' />
+              <img
+              src={require('./images/opticas_comparacion_2.jpg')}
+              className='image2'
+              alt='Pulido de Optivas' />
+              <img 
+              src={require('./images/chevrolet_exterior.jpg')}
+              className='image3'
+              alt='Lavado de Autos'/>
+            </div>
         </div>
       </section>
       <section>
