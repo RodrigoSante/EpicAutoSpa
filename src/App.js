@@ -2,6 +2,7 @@ import './App.css';
 import './styles/Mobile.css';
 import { BiMenu, BiXCircle } from 'react-icons/bi';
 import { openNav, closeNav } from './functionsMenu/Nav.js';
+import { FaMapMarkerAlt } from "react-icons/fa";
 
 function App() {
   return (
@@ -66,16 +67,28 @@ function App() {
         <div className='location' id='location'>
           <p><strong>Ubicación</strong></p>
           <div className='google-maps'>
-            asd
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1068.0281640838105!2d-64.96231429505427!3d-25.79023535593746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9418512881425b71%3A0x3a3068bedb5a8e08!2sEpic%20Auto%20Spa!5e0!3m2!1ses!2sar!4v1698154385582!5m2!1ses!2sar"></iframe>
           </div>
-          <p>Av. Sarmiento 1613, R° de la Frontera, Salta</p>
+          <div className='direction'>
+            <FaMapMarkerAlt className='location-icon'/>
+            <p>Av. Sarmiento 1613, R° de la Frontera, Salta</p>
+          </div>
         </div>
       </section>
       <section>
         <div className='contact' id='contact'>
-          <p>Contactos</p>
+          <p><strong>Contactos</strong></p>
         </div>
       </section>
+      <footer>
+        <div className='footer'>
+          <img 
+            src={require('./images/logo_sin_fondo.png')}
+            className='epic-auto-spa-logo'
+            alt='Epic Auto Spa logo' />
+          <p>Todos los derechos reservados@2023 - Salta, Argentina.</p>
+        </div>
+      </footer>
     </body>
   );
 }
