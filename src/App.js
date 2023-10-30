@@ -3,8 +3,7 @@ import './styles/Mobile.css';
 import { BiMenu, BiXCircle } from 'react-icons/bi';
 import { openNav, closeNav } from './functionsMenu/Nav.js';
 import { FaMapMarkerAlt } from "react-icons/fa";
-import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle } from "react-icons/io";
-import { moveToLeft, moveToRight } from './functionCarousel/Slider';
+import Slideshow from './components/Slideshow';
 
 function App() {
   return (
@@ -70,56 +69,7 @@ function App() {
       <section>
         <div className='works' id='works'>
           <p><strong>Nuestros Trabajos</strong></p>
-            <div className='carousel-container'>
-              <div className='images-container'>
-                <section className='slider-section'>
-                  <img
-                  src={require('./images/toyota_corolla.jpg')}
-                  alt='Toyota Corolla' />
-                </section>
-                <section className='slider-section'>
-                  <img
-                  src={require('./images/toyota_hilux.jpg')}
-                  alt='Toyota Hilux' />
-                </section>
-                <section className='slider-section'>
-                  <img 
-                  src={require('./images/citroen_exterior.jpg')}
-                  alt='Citroen'/>
-                </section>
-                <section className='slider-section'>
-                  <img 
-                  src={require('./images/audi_exterior.jpg')}
-                  alt='Citroen'/>
-                </section>
-                <section className='slider-section'>
-                  <img 
-                  src={require('./images/chevrolet_exterior.jpg')}
-                  alt='Citroen'/>
-                </section>
-                <section className='slider-section'>
-                  <img 
-                  src={require('./images/opticas_comparacion.jpg')}
-                  alt='Citroen'/>
-                </section>
-                <section className='slider-section'>
-                  <img 
-                  src={require('./images/audi_interior.jpg')}
-                  alt='Citroen'/>
-                </section>
-                <section className='slider-section'>
-                  <img 
-                  src={require('./images/audi_interior2.jpg')}
-                  alt='Citroen'/>
-                </section>
-              </div>
-              <div className='btn-left' onClick={moveToLeft}>
-                <IoIosArrowDropleftCircle className='arrow-left'/>
-              </div>
-              <div className='btn-right' onClick={moveToRight}>
-                <IoIosArrowDroprightCircle className='arrow-right'/>
-              </div>
-            </div>
+          <Slideshow />  
         </div>
       </section>
       <section>
