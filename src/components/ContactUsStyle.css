@@ -1,0 +1,44 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    padding: 40px 40px 20px 40px;
+    text-align: center;
+}
+
+.contact p{
+    margin: 20px;
+}
+
+.contact .contact-container{
+    background-color: #9b141a;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: center;
+    padding: 50px;
+}
+
+.contact .contact-container form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .contact-container input{
+    margin: 10px;
+    border-radius: 0.3rem;
+    color: #9b141a;
+}
+
+.contact .contact-container label{
+    margin: 5px;
+    color: white;
+}
+
+.contact .contact-container textarea{
+    resize: none;
+    height: 200px;
+    border-radius: 0.3rem;
+}

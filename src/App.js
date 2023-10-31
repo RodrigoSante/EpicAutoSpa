@@ -4,6 +4,7 @@ import { BiMenu, BiXCircle } from 'react-icons/bi';
 import { openNav, closeNav } from './functionsMenu/Nav.js';
 import { FaMapMarkerAlt } from "react-icons/fa";
 import Slideshow from './components/Slideshow';
+import { ContactUs } from './components/ContactUS';
 
 function App() {
   return (
@@ -87,6 +88,9 @@ function App() {
       <section>
         <div className='contact' id='contact'>
           <p><strong>Contactos</strong></p>
+          <div className='contact-container'>
+            <ContactUs />
+          </div>
         </div>
       </section>
       <footer>
