@@ -8,11 +8,11 @@ export const ContactUs = () => {
     const sendEmail = (e) => {
       e.preventDefault();
 
-      const YOUR_SERVICE_ID = 'ad';
-      const YOUR_TEMPLATE_ID = 'asd';
-      const YOUR_PUBLIC_KEY = 'asd';
+      /*const YOUR_SERVICE_ID = 'service_trwl9mf';
+      const YOUR_TEMPLATE_ID = 'template_j00c2fp';
+      const YOUR_PUBLIC_KEY = 'jd_WrVj6wRWRzj4gw';*/
   
-      emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+      emailjs.sendForm('service_trwl9mf', 'template_j00c2fp', form.current, 'jd_WrVj6wRWRzj4gw')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
