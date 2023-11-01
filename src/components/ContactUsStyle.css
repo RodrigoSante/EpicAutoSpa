@@ -15,15 +15,15 @@
 }
 
 .contact .wasap-icon{
-    fill: #25D366;
+    fill: #fff;
+    background-color: #25D366;
+    border-radius: 0.3rem;
+    padding: 5px;
 }
 
 .contact .insta-icon{
-    fill: #d6249f;
-}
-
-/*#gradient{
-    fill: radial-gradient(
+    fill: #fff;
+    background: radial-gradient(
         circle at 30% 107%,
         #fdf497 0%,
         #fdf497 5%, 
@@ -31,7 +31,9 @@
         #d6249f 60%, 
         #285AEB 90%
         );
-}*/
+        border-radius: 0.3rem;
+        padding: 5px;
+}
 
 .contact .contact-container{
     border-style: solid;
