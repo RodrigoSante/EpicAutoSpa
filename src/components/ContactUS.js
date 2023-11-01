@@ -7,10 +7,6 @@ export const ContactUs = () => {
 
     const sendEmail = (e) => {
       e.preventDefault();
-
-      /*const YOUR_SERVICE_ID = 'service_trwl9mf';
-      const YOUR_TEMPLATE_ID = 'template_j00c2fp';
-      const YOUR_PUBLIC_KEY = 'jd_WrVj6wRWRzj4gw';*/
   
       emailjs.sendForm('service_trwl9mf', 'template_j00c2fp', form.current, 'jd_WrVj6wRWRzj4gw')
         .then((result) => {

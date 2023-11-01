@@ -7,18 +7,41 @@
     text-align: center;
 }
 
-.contact p{
-    margin: 20px;
+.contact .container-tittle{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 0px 50px;
 }
 
+.contact .wasap-icon{
+    fill: #25D366;
+}
+
+.contact .insta-icon{
+    fill: #d6249f;
+}
+
+/*#gradient{
+    fill: radial-gradient(
+        circle at 30% 107%,
+        #fdf497 0%,
+        #fdf497 5%, 
+        #fd5949 45%, 
+        #d6249f 60%, 
+        #285AEB 90%
+        );
+}*/
+
 .contact .contact-container{
-    background-color: #9b141a;
+    border-style: solid;
+    border-color: #9b141a;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
     height: 60%;
     justify-content: center;
-    padding: 50px;
+    padding: 35px;
 }
 
 .contact .contact-container form{
@@ -29,12 +52,12 @@
 .contact .contact-container input{
     margin: 10px;
     border-radius: 0.3rem;
-    color: #9b141a;
+    color: #000;
 }
 
 .contact .contact-container label{
     margin: 5px;
-    color: white;
+    color: #9b141a;
 }
 
 .contact .contact-container textarea{

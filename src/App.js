@@ -5,6 +5,7 @@ import { openNav, closeNav } from './functionsMenu/Nav.js';
 import { FaMapMarkerAlt } from "react-icons/fa";
 import Slideshow from './components/Slideshow';
 import { ContactUs } from './components/ContactUS';
+import { BsWhatsapp, BsInstagram } from "react-icons/bs";
 
 function App() {
   return (
@@ -87,7 +88,11 @@ function App() {
       </section>
       <section>
         <div className='contact' id='contact'>
-          <p><strong>Contactos</strong></p>
+          <div className='container-tittle'>
+            <BsInstagram className='insta-icon'/>
+            <p><strong>- Contactos -</strong></p>
+            <BsWhatsapp className='wasap-icon'/>
+          </div>
           <div className='contact-container'>
             <ContactUs />
           </div>
