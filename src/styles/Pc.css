@@ -1,0 +1,327 @@
+/*@media(min-width: 721px){
+    .nav .links-mobile{
+            display: none;
+    }
+
+    .nav .icon-open-menu-container{
+        display: none;
+    }
+
+    .about-us{
+        padding: 0px 250px;
+    }
+
+    .service{
+        padding: 0px 250px;
+    }
+
+    .works{
+        padding: 0px 250px;
+    }
+
+    .contact{
+        padding: 30px 20px;
+        align-items: center;
+    }
+
+    .contact .contact-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: aqua;
+        width: 100%;
+    }
+
+    .contact-form-container{
+        display: flex;
+    }
+
+    .contact p{
+        width: 100%;
+        margin-bottom: 15px;
+        justify-content: start;
+        text-align: start;
+    }
+
+    .contact .contact-container .container-icons-mobile{
+        display: none;
+    }
+
+    .contact .contact-container .container-icons-pc{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container-socialmedia{
+        display: flex;
+        margin: 30px 0px;
+    }
+
+    .contact .contact-container .container-icons-pc .logo-contact{
+        display: flex;
+        width: 90%;
+    }
+
+    .contact .logo-contact img{
+        min-width: 80px;
+        height: auto;
+    }
+
+    .contact .wasap-icon2{
+        display: flex;
+        fill: #fff;
+        background: #000;
+        border-radius: 0.3rem;
+        padding: 5px;
+        align-items: center;
+        justify-content: center;
+        width: 70px;
+        height: 50px;
+        margin-left: 10px;
+    }
+
+    .contact .wasap-icon2:hover{
+        background-color: #25D366;
+    }
+    
+    .contact .insta-icon2{
+        display: flex;
+        fill: #fff;
+        background: #000;
+        border-radius: 0.3rem;
+        padding: 5px;
+        align-items: center;
+        justify-content: center;
+        width: 70px;
+        height: 50px;
+        margin-right: 10px;
+    }
+
+    .contact .insta-icon2:hover{
+        background: radial-gradient(
+            circle at 30% 107%,
+            #fdf497 0%,
+            #fdf497 5%, 
+            #fd5949 45%, 
+            #d6249f 60%, 
+            #285AEB 90%
+            );
+    }
+}
+
+.nav .links-pc ul{
+    display: flex;
+    margin: 0px 20px;
+}
+
+.nav .links-pc li{
+    margin: 0px 15px;
+}
+
+.nav .links-pc li:hover{
+    background-color: black;
+    border-radius: 1rem;
+}*/
+
+@media(min-width: 721px){
+    *{
+        font-size: 0.9rem;
+    }
+
+    .nav .links-mobile{
+        display: none;
+    }
+
+    .nav .icon-open-menu-container{
+        display: none;
+    }
+
+    .nav .links-pc ul{
+        display: flex;
+        margin: 0px 20px;
+    }
+
+    .nav .links-pc li{
+        margin: 0px 15px;
+    }
+    
+    .nav .links-pc li:hover{
+        background-color: black;
+        border-radius: 1rem;
+    }
+
+    .about-us{
+        padding: 0px 100px;
+    }
+
+    .service{
+        padding: 0px 100px;
+    }
+
+    .service .tittle-service{
+        text-align: start;
+        color: #9b141a;
+    }
+
+    .service .tittle-service strong{
+        font-size: 1.3rem;
+    }
+
+    .service .service-description{
+        width: 300px;
+        margin: 30px 0px;
+        align-self: center;
+    }
+
+    .works{
+        padding: 0px 100px;
+    }
+
+    .works p{
+        text-align: start;
+        color: #9b141a;
+        padding-left: 0px;
+    }
+
+    .works p strong{
+        font-size: 1.3rem;
+    }
+
+    .works .carousel-container{
+        height: 350px;
+        width: 400px;
+        align-self: center;
+    }
+
+    .location{
+        padding: 0px 100px;
+    }
+
+    .location p{
+        text-align: start;
+        color: #9b141a;
+    }
+
+    .location p strong{
+        font-size: 1.3rem;
+    }
+
+    .location .google-maps{
+        height: 300px;  
+    }
+
+    .location .google-maps iframe{
+        width: 400px;
+        height: 300px;
+    }
+
+    .contact{
+        padding: 30px 100px;
+        justify-content: center;
+    }
+
+    .contact p{
+        text-align: start;
+    }
+
+    .contact p strong{
+        font-size: 1.3rem;
+        color: #9b141a;
+    }
+
+    .contact .contact-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact .container-icons-mobile{
+        display: none;
+    }
+
+    .contact .container-icons-pc{
+        display: flex;
+        flex-direction: column;
+        margin-right: 40px;
+    }
+
+    .contact .logo-contact img{
+        width: 90%;
+    }
+
+    .contact .container-socialmedia{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+
+    .contact .wasap-icon2{
+        display: flex;
+        fill: #fff;
+        background: #000;
+        border-radius: 0.3rem;
+        padding: 5px;
+        align-items: center;
+        justify-content: center;
+        width: 70px;
+        height: 50px;
+        margin-left: 10px;
+    }
+
+    .contact .wasap-icon2:hover{
+        background-color: #25D366;
+    }
+    
+    .contact .insta-icon2{
+        display: flex;
+        fill: #fff;
+        background: #000;
+        border-radius: 0.3rem;
+        padding: 5px;
+        align-items: center;
+        justify-content: center;
+        width: 70px;
+        height: 50px;
+        margin-right: 10px;
+    }
+
+    .contact .insta-icon2:hover{
+        background: radial-gradient(
+            circle at 30% 107%,
+            #fdf497 0%,
+            #fdf497 5%, 
+            #fd5949 45%, 
+            #d6249f 60%, 
+            #285AEB 90%
+            );
+    }
+
+    .contact .contact-form-container{
+        margin-left: 40px;
+    }
+}
+
+@media(min-width: 1024px){
+    *{
+        font-size: 1.1rem;
+    }
+
+    .service .service-description{
+        width: 600px;
+    }
+
+    .works .carousel-container{
+        height: 450px;
+        width: 600px;
+        align-self: center;
+    }
+
+    .location .google-maps iframe{
+        width: 550px;
+        height: 300px;
+    }
+}

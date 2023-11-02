@@ -1,68 +1,30 @@
-.contact{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: center;
-    padding: 40px 40px 20px 40px;
-    text-align: center;
-}
-
-.contact .container-tittle{
-    display: flex;
-    justify-content: space-between;
-    margin: 15px;
-    padding: 0px 50px;
-}
-
-.contact .wasap-icon{
-    fill: #fff;
-    background-color: #25D366;
-    border-radius: 0.3rem;
-    padding: 5px;
-}
-
-.contact .insta-icon{
-    fill: #fff;
-    background: radial-gradient(
-        circle at 30% 107%,
-        #fdf497 0%,
-        #fdf497 5%, 
-        #fd5949 45%, 
-        #d6249f 60%, 
-        #285AEB 90%
-        );
-        border-radius: 0.3rem;
-        padding: 5px;
-}
-
-.contact .contact-container{
+.contact .contact-form-container{
     border-style: solid;
     border-color: #9b141a;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
-    height: 60%;
     justify-content: center;
     padding: 35px;
 }
 
-.contact .contact-container form{
+.contact .contact-form-container form{
     display: flex;
     flex-direction: column;
 }
 
-.contact .contact-container input{
+.contact .contact-form-container input{
     margin: 10px;
     border-radius: 0.3rem;
     color: #000;
 }
 
-.contact .contact-container label{
+.contact .contact-form-container label{
     margin: 5px;
     color: #9b141a;
 }
 
-.contact .contact-container textarea{
+.contact .contact-form-container textarea{
     resize: none;
     height: 200px;
     border-radius: 0.3rem;

@@ -2,6 +2,10 @@
     .links-pc{
         display: none;
     }
+
+    .contact .contact-container .container-icons-pc{
+        display: none;
+    }
 }
 
 .nav{
@@ -83,7 +87,7 @@ a:visited{
 }
 
 .about-us p{
-    margin: 10px;
+    margin: 20px 0px;
     color: #fff;
 }
 
@@ -97,7 +101,7 @@ a:visited{
 }
 
 .service .tittle-service{
-    padding: 10px;
+    padding: 30px 0px;
 }
 
 .service .service-description{
@@ -129,7 +133,7 @@ a:visited{
 }
 
 .works p{
-    padding: 20px;
+    padding: 30px;
 }
 
 .works .carousel-container{
@@ -191,7 +195,7 @@ a:visited{
 }
 
 .location p{
-    margin: 20px;
+    margin: 30px 0px;
 }
 
 .location .google-maps{
@@ -218,9 +222,49 @@ a:visited{
 }
 
 .contact{
+    display: flex;
+    flex-direction: column;
     height: 100vh;
+    justify-content: center;
+    padding: 40px 40px 20px 40px;
+    text-align: center;
+}
+
+.contact .container-icons-mobile{
     display: flex;
     justify-content: center;
+    margin: 15px 0px;
+}
+
+.contact .wasap-icon{
+    display: flex;
+    fill: #fff;
+    background-color: #25D366;
+    border-radius: 0.3rem;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    width: 25px;
+}
+
+.contact .insta-icon{
+    display: flex;
+    fill: #fff;
+    background: radial-gradient(
+        circle at 30% 107%,
+        #fdf497 0%,
+        #fdf497 5%, 
+        #fd5949 45%, 
+        #d6249f 60%, 
+        #285AEB 90%
+        );
+    border-radius: 0.3rem;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    width: 25px;
 }
 
 .footer{
@@ -233,9 +277,8 @@ a:visited{
     align-items: center;
 }
 
-.footer .epic-auto-spa-logo{
+.footer .epic-auto-spa-logo img{
     width: 120px;
     height: auto;
     margin: 10px;
-    
 }
