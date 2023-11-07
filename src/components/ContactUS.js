@@ -19,12 +19,12 @@ export const ContactUs = () => {
     return (
         <form ref={form} onSubmit={sendEmail}>
             <label>Nombre</label>
-            <input type="text" name="user_name" />
+            <input type='text' name='user_name' />
             <label>Email</label>
-            <input type="email" name="user_email" />
+            <input type='email' name='user_email' />
             <label>Mensaje</label>
-            <textarea name="message" />
-            <input type="submit" value="Enviar" />
+            <textarea name='message' />
+            <input className='submit' type='submit' value='Enviar' />
         </form> 
     );
 }
