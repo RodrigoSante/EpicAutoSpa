@@ -6,8 +6,9 @@
     list-style: none;
     font-size: 1.1rem;
     scroll-behavior: smooth;
+    color: white;
 }
 
-body{
+body, html{
     background-color: #ffffff;
 }
