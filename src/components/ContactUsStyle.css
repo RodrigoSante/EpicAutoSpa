@@ -19,8 +19,8 @@
     margin: 10px;
     border-radius: 0.3rem;
     color: #000;
-    background-color: #EDFFF0;
-    border: 2px solid #F0FAF1;
+    background-color: rgb(244, 244, 244);
+    border: 2px solid rgb(244, 244, 244);
     outline: none;
 }
 
@@ -33,15 +33,15 @@
     resize: none;
     height: 200px;
     border-radius: 0.3rem;
-    background-color: #EDFFF0;
-    border: 2px solid #F0FAF1;
+    background-color: rgb(244, 244, 244);
+    border: 2px solid rgb(244, 244, 244);
     outline: none;
 }
 
 .contact .contact-form-container .submit{
     background-color: #b32b31;
     color: #fff;
-    border: 2px solid #F0FAF1;
+    border: 2px solid #faf0f0;
 }
 
 .contact .contact-form-container .submit:hover{

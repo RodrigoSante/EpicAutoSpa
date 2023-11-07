@@ -3,6 +3,10 @@
         font-size: 0.9rem;
     }
 
+    .nav{
+        height: 80px;
+    }
+
     .nav .links-mobile{
         display: none;
     }
@@ -34,6 +38,7 @@
         width: 120px;
         height: 35px;
         transition: 0.5s;
+        color: #670d11;
     }
 
     .nav .links-pc li:nth-child(1):hover~.span{
