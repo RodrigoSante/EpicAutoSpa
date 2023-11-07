@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cfdd6ec6.css",
+    "main.js": "/static/js/main.29f588c7.js",
+    "static/media/audi_interior.jpg": "/static/media/audi_interior.1595ac66287493a0d8f2.jpg",
+    "static/media/audi_interior2.jpg": "/static/media/audi_interior2.9ce6f7e93208871361e7.jpg",
+    "static/media/toyota_corolla.jpg": "/static/media/toyota_corolla.53c6a567b4eb0381b129.jpg",
+    "static/media/opticas_comparacion.jpg": "/static/media/opticas_comparacion.b76ff187e0d015587785.jpg",
+    "static/media/logo_sin_fondo.png": "/static/media/logo_sin_fondo.1707838cb6c83fa12ff8.png",
+    "static/media/toyota_hilux.jpg": "/static/media/toyota_hilux.d9e789cd0e83e3fa2a5b.jpg",
+    "static/media/chevrolet_exterior.jpg": "/static/media/chevrolet_exterior.ddca27ebe32d7d9535d1.jpg",
+    "static/media/audi_exterior.jpg": "/static/media/audi_exterior.359dbea6b44d4ca942bb.jpg",
+    "static/media/citroen_exterior.jpg": "/static/media/citroen_exterior.c91eb1c87160e6a48079.jpg",
+    "index.html": "/index.html",
+    "main.cfdd6ec6.css.map": "/static/css/main.cfdd6ec6.css.map",
+    "main.29f588c7.js.map": "/static/js/main.29f588c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfdd6ec6.css",
+    "static/js/main.29f588c7.js"
+  ]
+}
