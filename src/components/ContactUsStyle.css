@@ -36,6 +36,7 @@
     background-color: rgb(244, 244, 244);
     border: 2px solid rgb(244, 244, 244);
     outline: none;
+    color: #000;
 }
 
 .contact .contact-form-container .submit{

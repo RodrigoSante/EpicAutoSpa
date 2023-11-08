@@ -61,11 +61,17 @@ function App() {
           <div className='service-description'>
             <p><strong>Limpieza Automovil</strong></p>
             <ul>
-              <li>- Interior</li>
-              <li>- Limpieza de Tapizados en General (Techo, Piso, Butacas, Paneles, Parantes, Plásticos, Renovación de Plasticos)</li>
+              <li>- Limpieza completa de interior</li>
+              <li>- Limpieza e hidratado de paneles</li>
+              <li>- Limpieza de tapizados en general</li> 
               <li>- Alfombra</li>
-              <li>- Pulido de Carrocería</li>
+              <li>- Pulido de carrocería</li>
               <li>- Encerado</li>
+              <li>- Restauración de ópticas</li>
+              <li>- Tratamientos de pintura:</li>
+              <li>  *	Abrillantado</li>
+              <li>  * Acrílico</li>
+              <li>  *	Cerámico</li>
             </ul>
           </div>
         </div>
@@ -99,7 +105,7 @@ function App() {
           <p><strong>Contactos</strong></p>
           <div className='contact-container'>
             <div className='container-icons-mobile'>
-              <a href='https://www.instagram.com/lavadero_epic.auto.spa/' target='_blank'>
+              <a href='https://www.instagram.com/epic.auto.spa/' target='_blank'>
                 <div className='insta-icon'>
                   <InstaLogo />
                 </div>
@@ -115,7 +121,7 @@ function App() {
                 <EpicLogo />
               </div>
               <div className='container-socialmedia'>
-                <a href='https://www.instagram.com/lavadero_epic.auto.spa/' target='_blank'>
+                <a href='https://www.instagram.com/epic.auto.spa/' target='_blank'>
                   <div className='insta-icon2'>
                     <InstaLogo />
                   </div>
