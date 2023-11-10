@@ -46,12 +46,12 @@ const Slideshow = () => {
     }
   }
 
-  useEffect(() => {
+  /*useEffect(() => {
     intervalSlideshow.current = setInterval(() => {
       nextImage();
     }, 5000);
 
-    /*slideshow.current.addEventListener('mouseenter', () => {
+    slideshow.current.addEventListener('mouseenter', () => {
       clearInterval(intervalSlideshow.current);
     });
 
@@ -59,9 +59,9 @@ const Slideshow = () => {
       intervalSlideshow.current = setInterval(() => {
         nextImage();
       }, 5000);
-    } )*/
+    } )
 
-  }, []);
+  }, []);*/
 
   return(
         <div className='carousel-container'>
