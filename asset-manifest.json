@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/EpicAutoSpa/static/css/main.0008b2fb.css",
-    "main.js": "/EpicAutoSpa/static/js/main.2e544b7d.js",
+    "main.css": "/EpicAutoSpa/static/css/main.ae32ef7a.css",
+    "main.js": "/EpicAutoSpa/static/js/main.d307c820.js",
     "static/media/audi_interior.jpg": "/EpicAutoSpa/static/media/audi_interior.1595ac66287493a0d8f2.jpg",
     "static/media/audi_interior2.jpg": "/EpicAutoSpa/static/media/audi_interior2.9ce6f7e93208871361e7.jpg",
-    "static/media/toyota_corolla.jpg": "/EpicAutoSpa/static/media/toyota_corolla.53c6a567b4eb0381b129.jpg",
-    "static/media/audi_exterior.jpg": "/EpicAutoSpa/static/media/audi_exterior.56a54e77e019e0274753.jpg",
+    "static/media/toyota_corolla.jpg": "/EpicAutoSpa/static/media/toyota_corolla.27b21a52f9a99d9ec6e9.jpg",
     "static/media/opticas_comparacion.jpg": "/EpicAutoSpa/static/media/opticas_comparacion.b76ff187e0d015587785.jpg",
     "static/media/logo_sin_fondo.png": "/EpicAutoSpa/static/media/logo_sin_fondo.1707838cb6c83fa12ff8.png",
-    "static/media/toyota_hilux.jpg": "/EpicAutoSpa/static/media/toyota_hilux.d9e789cd0e83e3fa2a5b.jpg",
-    "static/media/chevrolet_exterior.jpg": "/EpicAutoSpa/static/media/chevrolet_exterior.ddca27ebe32d7d9535d1.jpg",
+    "static/media/toyota_hilux.jpg": "/EpicAutoSpa/static/media/toyota_hilux.3786f643347b58273a99.jpg",
+    "static/media/chevrolet_exterior.jpg": "/EpicAutoSpa/static/media/chevrolet_exterior.f074b9b69f1a07a8b60e.jpg",
+    "static/media/audi_exterior.jpg": "/EpicAutoSpa/static/media/audi_exterior.7f4f454eee246ab71871.jpg",
     "static/media/citroen_exterior.jpg": "/EpicAutoSpa/static/media/citroen_exterior.c91eb1c87160e6a48079.jpg",
     "index.html": "/EpicAutoSpa/index.html",
-    "main.0008b2fb.css.map": "/EpicAutoSpa/static/css/main.0008b2fb.css.map",
-    "main.2e544b7d.js.map": "/EpicAutoSpa/static/js/main.2e544b7d.js.map"
+    "main.ae32ef7a.css.map": "/EpicAutoSpa/static/css/main.ae32ef7a.css.map",
+    "main.d307c820.js.map": "/EpicAutoSpa/static/js/main.d307c820.js.map"
   },
   "entrypoints": [
-    "static/css/main.0008b2fb.css",
-    "static/js/main.2e544b7d.js"
+    "static/css/main.ae32ef7a.css",
+    "static/js/main.d307c820.js"
   ]
 }
