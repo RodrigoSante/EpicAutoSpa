@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/EpicAutoSpa/static/css/main.ae32ef7a.css",
+    "main.css": "/EpicAutoSpa/static/css/main.e2f20a14.css",
     "main.js": "/EpicAutoSpa/static/js/main.d307c820.js",
     "static/media/audi_interior.jpg": "/EpicAutoSpa/static/media/audi_interior.1595ac66287493a0d8f2.jpg",
     "static/media/audi_interior2.jpg": "/EpicAutoSpa/static/media/audi_interior2.9ce6f7e93208871361e7.jpg",
@@ -12,11 +12,11 @@
     "static/media/audi_exterior.jpg": "/EpicAutoSpa/static/media/audi_exterior.7f4f454eee246ab71871.jpg",
     "static/media/citroen_exterior.jpg": "/EpicAutoSpa/static/media/citroen_exterior.c91eb1c87160e6a48079.jpg",
     "index.html": "/EpicAutoSpa/index.html",
-    "main.ae32ef7a.css.map": "/EpicAutoSpa/static/css/main.ae32ef7a.css.map",
+    "main.e2f20a14.css.map": "/EpicAutoSpa/static/css/main.e2f20a14.css.map",
     "main.d307c820.js.map": "/EpicAutoSpa/static/js/main.d307c820.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae32ef7a.css",
+    "static/css/main.e2f20a14.css",
     "static/js/main.d307c820.js"
   ]
 }
