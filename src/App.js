@@ -65,7 +65,6 @@ function App() {
               <li>- Limpieza e hidratado de paneles</li>
               <li>- Limpieza de tapizados en general</li> 
               <li>- Alfombra</li>
-              <li>- Pulido de carrocería</li>
               <li>- Encerado</li>
               <li>- Restauración de ópticas</li>
               <li>- Tratamientos de pintura:</li>
