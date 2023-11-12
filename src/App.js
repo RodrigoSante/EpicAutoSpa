@@ -109,11 +109,11 @@ function App() {
                   <InstaLogo />
                 </div>
               </a>
-              <a href='https://api.whatsapp.com/message/6STWPTGSVFGEF1?autoload=1&app_absent=0' target='_blank'>
+              <bottom>
                 <div className='wasap-icon'>
                   <WasapLogo />
                 </div>
-              </a>
+              </bottom>
             </div>
             <div className='container-icons-pc'>
               <div className='logo-contact'>
@@ -125,18 +125,17 @@ function App() {
                     <InstaLogo />
                   </div>
                 </a>
-                <a href='https://api.whatsapp.com/message/6STWPTGSVFGEF1?autoload=1&app_absent=0' target='_blank'>
+                <bottom>
                   <div className='wasap-icon2'>
                     <WasapLogo />
                   </div>
-                </a>
+                </bottom>
               </div>
             </div> 
             <div className='contact-form-container'>
               <ContactUs />
             </div> 
           </div>
-          
         </div>
       </section>
       <footer>
