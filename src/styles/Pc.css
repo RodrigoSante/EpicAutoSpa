@@ -34,7 +34,7 @@
         background: linear-gradient(45deg, #670d11, #cf1b24);
         border-radius: 8px;
         width: 105px;
-        height: 35px;
+        height: 34px;
         transition: 0.5s;
         color: #670d11;
     }
@@ -45,22 +45,22 @@
     .nav .links-pc li:nth-child(2):hover~.span{
         left: 105px;
         width: 80px;
-        height: 35px;
+        height: 34px;
     }
     .nav .links-pc li:nth-child(3):hover~.span{
         left: 185px;
-        width: 110px;
-        height: 35px;
+        width: 115px;
+        height: 34px;
     }
     .nav .links-pc li:nth-child(4):hover~.span{
-        left: 295px;
-        width: 85px;
-        height: 35px;
+        left: 300px;
+        width: 80px;
+        height: 34px;
     }
     .nav .links-pc li:nth-child(5):hover~.span{
         left: 380px;
-        width: 85px;
-        height: 35px;
+        width: 80px;
+        height: 34px;
     }
 
 
