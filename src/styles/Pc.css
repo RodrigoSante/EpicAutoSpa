@@ -1,10 +1,8 @@
 @media(min-width: 721px){
-    *{
-        font-size: 0.9rem;
-    }
 
     .nav{
         height: 80px;
+        font-size: 0.7rem;
     }
 
     .nav .links-mobile{
@@ -35,7 +33,7 @@
         left: 0px;
         background: linear-gradient(45deg, #670d11, #cf1b24);
         border-radius: 8px;
-        width: 120px;
+        width: 105px;
         height: 35px;
         transition: 0.5s;
         color: #670d11;
@@ -45,22 +43,22 @@
         left: 0;
     }
     .nav .links-pc li:nth-child(2):hover~.span{
-        left: 120px;
+        left: 105px;
         width: 80px;
         height: 35px;
     }
     .nav .links-pc li:nth-child(3):hover~.span{
-        left: 200px;
-        width: 130px;
+        left: 185px;
+        width: 110px;
         height: 35px;
     }
     .nav .links-pc li:nth-child(4):hover~.span{
-        left: 330px;
-        width: 95px;
+        left: 295px;
+        width: 85px;
         height: 35px;
     }
     .nav .links-pc li:nth-child(5):hover~.span{
-        left: 425px;
+        left: 380px;
         width: 85px;
         height: 35px;
     }
